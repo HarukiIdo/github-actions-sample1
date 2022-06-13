@@ -30,9 +30,8 @@ jobs:
         run: npm ci
       - name: Lint
         run: npm run lint
-  hello: 
+  hello:
     name: Hello
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, World!"
-      shell: bash -eux {0} 
