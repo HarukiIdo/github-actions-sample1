@@ -1,4 +1,4 @@
-name: "Hallo"
+name: "Hello"
 runs:
   using: "node12"
   main: "index.js"
