@@ -7,6 +7,6 @@ jobs:
     name: Test
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v1
       - name: Verify hello action works
-        uses: ./actions/
+        uses: ./.github/actions
