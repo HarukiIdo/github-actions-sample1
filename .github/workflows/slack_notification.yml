@@ -7,6 +7,7 @@ jobs:
     steps:
       - name: Fail job
         run: exit 1
+        # jobが失敗したときにslackに通知をとばす
       - name: Slack notification
         if: failure()
         # v1.0.
